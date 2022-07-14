@@ -6,7 +6,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Prerequisites](#prerequisites)
-- [Getting started](#getting-started)
+- [Directory](#directory)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -14,9 +14,6 @@
 
 This project requires [bun.sh](https://bun.sh/).
 
-## Getting started
+## Directory
 
-```bash
-# Builder
-bun run ./src/builder.ts
-```
+- [Builder](./src/builder/README.md)

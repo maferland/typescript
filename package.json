@@ -8,9 +8,7 @@
   ],
   "author": "Marc-Antoine Ferland <me@maferland.com>",
   "license": "MIT",
-  "devDependencies": {
-    "ts-node": "^10.9.1"
-  },
+  "devDependencies": {},
   "volta": {
     "node": "18.6.0"
   }

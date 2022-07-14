@@ -1,3 +1,6 @@
+// From Matt Pocock
+// https://twitter.com/mattpocockuk/status/1547131723036737537
+
 interface Builder<TObj = {}> {
   addField: <Key extends PropertyKey, Value>(
     key: Key,
@@ -27,6 +30,7 @@ class MyBuilder<TObj = {}> implements MyBuilder<TObj> {
 const myBuilder = new MyBuilder({})
 
 const value = myBuilder
+  //  ^?
   .addField('number', 1)
   .addField('string', 'hello')
   .addField('array', [1, 2, 3])
@@ -34,4 +38,11 @@ const value = myBuilder
   .addField('promise', Promise.resolve()).value
 
 console.log(value)
-//           ^?
+
+// {
+//   number: 1,
+//   string: 'hello',
+//   array: [1, 2, 3],
+//   object: {key: 'value'},
+//   promise: Promise { <resolved> },
+// }
