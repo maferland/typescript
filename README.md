@@ -1,7 +1,5 @@
 <h1 align="center">
-    <img src="https://i.imgur.com/dvKyt0B.png" width="120"/>
-    <br>
-    👨‍🏫 Typescript
+  👨‍🏫 Typescript
 </h1>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
