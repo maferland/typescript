@@ -1,9 +1,7 @@
 {
   "name": "@maferland/typescript",
   "version": "1.0.0",
-  "scripts": {
-    "bun": "bun run"
-  },
+  "scripts": {},
   "keywords": [
     "Learning",
     "Typescript"
