@@ -17,5 +17,6 @@ This project requires [bun.sh](https://bun.sh/).
 ## Getting started
 
 ```bash
-npm run ./src/builder.ts
+# Builder
+bun run ./src/builder.ts
 ```
